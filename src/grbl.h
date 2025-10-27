@@ -5,8 +5,9 @@
 #define GRBL_VERSION "1.0"
 
 // Define standard libraries used by Grbl.
-
+#include <Arduino.h>
 // Define the Grbl system include files.
+#include "config/config.h"
 #include "platform_config.h"
 #include "hal/hal_pins.h"
 #include "io/serial_iface.h"
