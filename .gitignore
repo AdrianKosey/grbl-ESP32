@@ -3,5 +3,5 @@
 *.elf
 *.DS_Store
 *.d
-
+.vscode
 README.md

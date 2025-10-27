@@ -3,7 +3,7 @@
 static String serial_input_line = "";
 
 void serial_iface_init() {
-    Serial.begin(115200);
+    Serial.begin(BAUD_RATE);
     Serial.println("[INFO] Serial interface ready");
 }
 

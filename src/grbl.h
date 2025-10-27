@@ -16,8 +16,10 @@
 #include "gcode/gcode_buffer.h"
 #include "gcode/gcode.h"
 #include "gcode/gcode_exec.h"
-#include "motion/planner.h"
+#include "hal/hal_timer.h"
 #include "hal/hal_stepper.h"
+#include "motion/planner.h"
+#include "motion/motion_control.h"
 #include "safety/estop.h"
 
 #endif
